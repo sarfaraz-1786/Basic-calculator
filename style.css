@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 72.5%;
+}
+
+body{
+    background-image: linear-gradient(120deg,rgba(243, 11, 11, 0.897),rgba(14, 14, 235, 0.863));
+    padding: 3rem;
+    margin: 3rem;
+}
+.div{
+    transform: translateX(40%) translateY(50%);
+}
+
+.input,.button{
+    font-size: 2rem;
+}
+.button{
+    width: 4rem;
+    height: 3rem;
+    margin: 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border-color: grey;
+    transition: all 0.2s ease-out;
+}
+
+form,table{
+    margin: 1.5rem;
+}
+
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.027);
+    
+}
+.button:active{
+    transform: translateY(0.2rem);
+}
